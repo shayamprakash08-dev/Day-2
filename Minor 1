@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="profile-card">
+        <img src="https://via.placeholder.com/150" alt="Profile Photo">
+        <h1>Rahul Sharma</h1>
+        <h2>Computer Science Engineering</h2>
+        <p>
+            Hi, I'm a 3rd semester diploma student passionate about web development 
+            and problem solving. I love building projects and learning new tech.
+        </p>
+    </div>
+</body>
+</html>
