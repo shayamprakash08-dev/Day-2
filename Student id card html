@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Cards</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Student Information</h1>
+    <div class="card-container">
+        <div class="student-card">
+            <h2>Amit Kumar</h2>
+            <p><strong>Roll No:</strong> 101</p>
+            <p><strong>Branch:</strong> CSE</p>
+        </div>
+        
+        <div class="student-card">
+            <h2>Priya Singh</h2>
+            <p><strong>Roll No:</strong> 102</p>
+            <p><strong>Branch:</strong> ECE</p>
+        </div>
+        
+        <div class="student-card">
+            <h2>Rohan Verma</h2>
+            <p><strong>Roll No:</strong> 103</p>
+            <p><strong>Branch:</strong> Mechanical</p>
+        </div>
+    </div>
+</body>
+</html>
