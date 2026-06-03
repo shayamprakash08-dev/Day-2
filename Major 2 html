@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polytechnic Admission Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="https://imgs.search.brave.com/leWD_4hyTTFM0WDdgZszUsbGq_fSgqZtqkVcxUm0j64/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMjRmODJhYTc2/YjAyNWIxZDFjMzA0/MDkwNmM2NTc3ZGVm/MDQzNjgxNDg4ZWRh/MmI4MzdhMTMxY2My/Y2UxNzM0My9zYnRl/b25saW5lLmJpaGFy/Lmdvdi5pbi8" alt="College Logo" class="logo">
+            <div class="header-text">
+                <h1>Government Polytechnic Bhagalpur</h1>
+                <h2>Admission Portal 2026</h2>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Courses</a>
+        <a href="#">Admission</a>
+        <a href="#">Facilities</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <main>
+        <form class="admission-form">
+            <h2>Online Admission Form</h2>
+            
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+                <div class="form-group">
+                    <label for="fathername">Father's Name:</label>
+                    <input type="text" id="fathername" name="fathername" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="mobile">Mobile Number:</label>
+                    <input type="tel" id="mobile" name="mobile" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" rows="3" required></textarea>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label>Gender:</label>
+                    <div class="radio-group">
+                        <input type="radio" id="male" name="gender" value="male" required>
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                    </div>
+                <div class="form-group">
+                    <label for="category">Category:</label>
+                    <select id="category" name="category" required>
+                        <option value="">Select</option>
+                        <option value="general">General</option>
+                        <option value="obc">OBC</option>
+                        <option value="sc">SC</option>
+                        <option value="st">ST</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="course">Course Selection:</label>
+                    <select id="course" name="course" required>
+                        <option value="">Select Course</option>
+                        <option value="cse">Computer Science Engineering</option>
+                        <option value="mech">Mechanical Engineering</option>
+                        <option value="civil">Civil Engineering</option>
+                        <option value="electrical">Electrical Engineering</option>
+                        <option value="electronics">Electronics Engineering</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="photo">Upload Photograph:</label>
+                    <input type="file" id="photo" name="photo" accept="image/*" required>
+                </div>
+            </div>
+
+            <div class="button-group">
+                <button type="submit">Submit Application</button>
+                <button type="reset">Reset Form</button>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div>
+                <h3>Address</h3>
+                <p>Government Polytechnic Bhagalpur<br>Bihar - 812001</p>
+            </div>
+            <div>
+                <h3>Contact</h3>
+                <p>Phone: +91 98765 43210<br>Email: admission@gpb.edu.in</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
